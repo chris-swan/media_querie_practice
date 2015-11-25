@@ -1,0 +1,91 @@
+body {
+  background: gray;
+}
+#container {
+  width: 600px;
+  height: 230px;
+  margin-right: auto;
+  margin-left: auto;
+  background: white;
+}
+
+#left-column {
+  width: 200px;
+  float: left;
+  background: red;
+  height: 30px;
+  text-align: center;
+}
+
+#middle-column {
+  width: 200px;
+  float: right;
+  background: blue;
+  height: 30px;
+  text-align: center;
+}
+
+#right-column {
+  width: 200px;
+  float: right;
+  background: green;
+  height: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 590px) {
+  #container {
+  width: 100%;
+}
+
+#left-column {
+  width: 33%;
+  float: left;
+  background: red;
+  height: 30px;
+  text-align: center;
+}
+
+#middle-column {
+  width: 34%;
+  float: left;
+  background: blue;
+  height: 30px;
+  text-align: center;
+}
+
+#right-column {
+  width: 33%;
+  float: right;
+  background: green;
+  height: 30px;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 430px) {
+  #container {
+  width: 100%;
+}
+
+#left-column {
+  width: 100%;
+  background: red;
+  height: 30px;
+  text-align: center;
+}
+
+#middle-column {
+  width: 100%;
+  background: blue;
+  height: 30px;
+  text-align: center;
+}
+
+#right-column {
+  width: 100%;
+  background: green;
+  height: 30px;
+  text-align: center;
+}
+}
